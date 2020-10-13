@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--<link href='style.css' rel='stylesheet' />-->
+        <div id="form-wrapper" style="max-width:500px;margin:auto;">  
+            <style type="text/css" media="all">
+                .form_table { text-align: center; }
+                .full_width .segment_header { text-align: center !important; }
+                .q { float:none;display: inline-block; }
+                table.matrix, table.rating_ranking { margin-left:auto !important;margin-right:auto !important; }
+            </style>
+        </div>
+        <title>WELCOME!</title>
+        <meta charset='utf-8' />
+    </head>
+    <body>
+        <form>
+            <div class='form-group' float:left> <!-- Form-->
+                <div class='input-group'> 
+                    Name: <input type='text' size='20' id='name' />
+                </div>
+                <div class='input-group'>
+                    Email: <input type='text' size='20' id='email' />
+                </div>
+                <div class='input-group'>
+                    Username: <input type='text' size='20' id='username' />
+                </div>
+                <div class='input-group'>
+                    Password: <input type='text' size='20' id='password' />
+                </div>
+                <div class='input-group'>
+                    Confirm Password: <input type='text' size='20' id='confirmpassword' />
+                </div>
+            </div>
+            <button type='button' id='submitbutton'>Submit</button>
+        </form>
+        <div id='displayunameandpword'></div>
+    <script src='home.js'></script>
+    </body>
+</html>
