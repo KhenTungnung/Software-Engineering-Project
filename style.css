@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+    font-size:lem;
+    font-family:Arial;
+    background:#eee;
+}
+
+#hellomessage{
+    font-weight:bold;
+}
